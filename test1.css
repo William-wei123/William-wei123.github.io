@@ -17,10 +17,10 @@ body {
     }
 
 #map {
-    width: 50%;
-    /*margin-left: 45%;overflow: hidden;border-radius: 10px;*/
+    width: 30%;
+    /*overflow: hidden;border-radius: 10px;*/
     float: none;
-    
+    margin-left: 35%;
     background-color: #2d78ad;
     
 }
