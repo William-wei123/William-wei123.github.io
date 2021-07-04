@@ -22,7 +22,8 @@ body {
     float: none;
     margin-left: 35%;
     background-color: #2d78ad;
-    
+    margin-top: 150px;
+    padding-top:150px;
 }
 
 
@@ -30,14 +31,11 @@ body {
 #map {
     /*height: 114px;*/
     
-    margin-bottom: 0px;
-    
-    bottom:0;
+   
 }
 
 #declare {
-    
-    bottom: 0;
+    padding-top: 0px;
     /*margin-bottom: 2px;*/
     font-size: smaller;
     font-weight: 500;
