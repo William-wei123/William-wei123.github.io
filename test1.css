@@ -31,12 +31,12 @@ body {
     /*height: 114px;*/
     
     margin-bottom: 0px;
-    position:absolute;
+    
     bottom:0;
 }
 
 #declare {
-    position: absolute;
+    
     bottom: 0;
     /*margin-bottom: 2px;*/
     font-size: smaller;
