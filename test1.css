@@ -5,15 +5,16 @@ body {
     margin: 0;
     float: none;
 }
-#top {
 
+#top {
     background-color: #2d78ad;
 }
+
     #top .navigation {
-        display:inline-block;
+        display: inline-block;
         padding-top: 0px;
-        color:white;
-        margin-left:25px;
+        color: white;
+        margin-left: 25px;
     }
 
 #map {
@@ -29,8 +30,6 @@ body {
 
 #map {
     /*height: 114px;*/
-    
-   
 }
 
 #declare {
@@ -55,11 +54,11 @@ ul {
 
 
 
-#left,.top div:hover .lab {
+#left, .top div:hover .lab {
     display: block;
 }
 
-#left,top div .join, .lab {
+#left, top div .join, .lab {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -86,6 +85,10 @@ ul {
     margin-left: 21%;
     border-radius: 10px;
 }
+
+    #main div img {
+        width: 80%;
+    }
 
 #main_1 /*主部主*/ {
     /*background-color:#E6E6F2;*/
