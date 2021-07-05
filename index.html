@@ -50,12 +50,12 @@
 </head>
 <body>
     <div id="top">
-        <div class="navigation" style="margin-left:21%" onclick="choice('0')"><h2>Home</h2></div>
-        <div class="navigation" onclick="choice('1')"><h2>Biography</h2></div>
-        <div class="navigation" onclick="choice('2')"><h2>Education & Experience</h2></div>
-        <div class="navigation" onclick="choice('3')"><h2>Selected publications</h2></div>
-        <div class="navigation" onclick="choice('4')"><h2>Our Lab</h2></div>
-        <div class="navigation" onclick="choice('5')"><h2>Join us</h2></div>
+        <div class="navigation0" style="margin-left:21%" onclick="choice('0')"><h2>Home</h2></div>
+        <div class="navigation1" onclick="choice('1')"><h2>Biography</h2></div>
+        <div class="navigation2" onclick="choice('2')"><h2>Education & Experience</h2></div>
+        <div class="navigation3" onclick="choice('3')"><h2>Selected publications</h2></div>
+        <div class="navigation4" onclick="choice('4')"><h2>Our Lab</h2></div>
+        <div class="navigation5" onclick="choice('5')"><h2>Join us</h2></div>
     </div>
 
 
@@ -75,21 +75,21 @@
         <script type="text/javascript">
             switch (mapTo) {
                 case '0':
-                    loadStyleStrin("#declare{position: absolute;} #map{bottom: 10px;position: absolute;}");
+                    loadStyleStrin("#declare{position: absolute;} #map{bottom: 10px;position: absolute;} #top .navigation0{background-color: white;color: #2d78ad;}");
                     document.write(home); break;
                 case '1':
-                    loadStyleStrin("#declare{position: absolute;} #map{bottom: 10px;position: absolute;}");
+                    loadStyleStrin("#declare{position: absolute;} #map{bottom: 10px;position: absolute;}  #top .navigation1{background-color: white;color: #2d78ad;}");
                     document.write(Biography); break;
-                case '2': loadStyleStrin("#declare{position: absolute;} #map{bottom: 10px;position: absolute;}"); document.write(EE); break;
-                case '3': document.write(SP); break;
-                case '4': document.write(OL); break;
-                case '5': loadStyleStrin("#declare{position: absolute;} #map{bottom: 10px;position: absolute;}");document.write(JU); break;
+                case '2': loadStyleStrin("#declare{position: absolute;} #map{bottom: 10px;position: absolute;}   #top .navigation2{background-color: white;color: #2d78ad;}"); document.write(EE); break;
+                case '3': loadStyleStrin("#top .navigation3{background-color: white;color: #2d78ad;}");document.write(SP); break;
+                case '4': loadStyleStrin("#top .navigation4 {background-color: white;color: #2d78ad;}");document.write(OL); break;
+                case '5': loadStyleStrin("#declare{position: absolute;} #map{bottom: 10px;position: absolute; } #top .navigation5{background-color: white;color: #2d78ad;}");document.write(JU); break;
             }
         </script>
     </div>
     <div id="map">
 
-        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KBS25fQe08zSyUT76QpR6WvJDN7tv-Vx1zqNnpvvO0c&cl=ffffff&w=a"></script><!---->
+        <!--<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=KBS25fQe08zSyUT76QpR6WvJDN7tv-Vx1zqNnpvvO0c&cl=ffffff&w=a"></script>-->
 
     </div>
     <div id="declare">
