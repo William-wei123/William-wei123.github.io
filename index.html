@@ -6,7 +6,15 @@
         @import "test1.css";
     </style>
     <title>Xinqiang Chen</title>
-
+     <script type="text/javascript">
+        //获取网页窗口大小
+        var Twidth = window.outerWidth.toString();
+        var Theight = window.outerHeight.toString();
+        var LAST_DATA = document.lastModified;
+        console.log(Twidth);
+        console.log(window.screen.height.toString());
+        console.log(LAST_DATA);
+    </script>
     <script type="text/javascript">
         let getQueryStrArgs = function () {                 //获取访问参数按&分开  //window.location.search 得到的是链接问号之后的字符，
             let qs = (window.location.search.length > 0 ? window.location.search.substring(1) : "");
