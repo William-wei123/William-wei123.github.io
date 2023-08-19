@@ -180,13 +180,16 @@ address span{
   display: inline-block;
 }
 h3.clr1{
-	background:#6ecadc;
+	background:#2a8597;
+  padding-right: 30px
 }
 h3.clr2{
-	background:#e9a820;
+	background:#6a939b;
+  padding-right: 30px
 }
 h3.clr3{
-	background:#3eb991;
+	background:#2a8597;
+  padding-right: 30px
 }
 .copywrite{
 	padding-left:2em;
