@@ -126,7 +126,7 @@
 				<h3 class="clr1">工作经历</h3>
 				 <!--				 <h4>University of Awesome<span>JANUARY 2017 - OCTOBER 2009</span></h4>-->
 				 <ul>
-					 <li> <span>  <b>深圳市讯恒三维科技有限公司，算法工程师，2024.7-至今</b></span></li>
+					 <li> <span>  <b>深圳市讯恒三维科技有限公司，C++算法工程师，2024.7-至今</b></span></li>
 					 <div style=" width: 100%; height: auto;">
 						<div style="text-align: justify;">
 							<b>•	工作内容：</b>
@@ -135,11 +135,15 @@
 									<li><b>口扫设备标志杆设计与算法开发</b></li>
 									设计了15个口扫标志杆，涵盖75个不同平面，利用聚类算法与点线集合关系，准确识别每个平面ID与标志杆ID。
 									<li><b>手持激光扫描仪关键技术研发</b></li>
-									优化光平面匹配激光条纹，提升21线激光的匹配成功率，成功率达到85%以上。
+									利用图相关算法优化光条匹配激光条纹，提升线激光的匹配成功率，提高点云生成率、降低错误点云生成。
 									<li><b>网格锐化算法</b></li>
 									通过查阅论文并借助OPENMESH开源库验证方法可行性，最终使用CUDA并行加速，提升处理速度近20倍，同时保持锐化效果与时间成本的平衡。
 									<li><b>网格重建算法优化与适配</b></li>
 									针对公司设备，优化泊松重建算法，改进法线计算、曲率抽样与泊松重建加速，成功实现可调分辨率，满足项目需求。
+									<li><b>点云去噪</b></li>
+									改善MRPCA算法，利用cuda实现该算法加速，对点云进行去噪，可以较好去掉飞点，使点云变薄，大幅提升封装质量。实现自适应曲率下采样，可有效提升封装速度和减少内存消耗
+									<li><b>三维网格生成</b></li>
+									改善TSDF算法，使算法兼顾封装质量与封装速度，可以较好提高封装速度和质量。
 								</ol>
 							</div>
 						   <br>
@@ -158,12 +162,16 @@
 				 <ul>
 					 <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0029801824027069">ship visual trajectory exploitation via an ensemble instance segmentation framework</a>(导师一作，本人二作，ocean-engineering，SCI二区)</li>
 					 <!-- <li>Automatic Identification System (AIS) Data Supported Ship Trajectory Prediction and Analysis via a Deep Learning Model（导师一作，本人二作，SCI，JCR三区）</li> -->
-					 <li><a >融合图卷积神经网络与循环注意力机制的船舶航迹预测（导师一作，本人二作，核心期刊已录用）</a></li>
-					 <li><a href="https://ieeexplore.ieee.org/document/9963190">High-fidelity ship imaging trajectory extraction via an instance segmentation model（导师一作，本人二作，EI检索，ISSI2022）</a></li>
-					 <li><a href="https://www.docin.com/p-4573808663.html">发明专利_一种面向视觉特征非连续性干扰的船舶图像航迹提取方法（导师一作，本人二作，专利号：202211000946.9）</a></li>
 					 <li><a href="https://kns.cnki.net/kcms2/article/abstract?v=vdPasdvfHvuptar0NUL3b_AzVqo68W74XKOuFETjtAX5V-9cUaH2DflsOt9lR_xKv7NyP_WQosEsZHwbaQy_z2OVvyKNqponZ9ulEJ71B9gYNR5YmH7resVZe-LSp_VmkLpiMhRvglp6ORQE5xeu6Q==&uniplatform=NZKPT&language=CHS">
+						融合图卷积神经网络与循环注意力机制的船舶航迹预测[J].中国航海,2025,48(03):41-48+64.（导师一作，本人二作，核心期刊已录用）
+					 </a></li>
+					 <li><a href="https://ieeexplore.ieee.org/document/9963190">High-fidelity ship imaging trajectory extraction via an instance segmentation model（导师一作，本人二作，EI检索，ISSI2022）</a></li>
+					 <li><a href="https://d.wanfangdata.com.cn/patent/ChhQYXRlbnROZXdTMjAyNTA4MDcxNjU0MjYSKVpMX0NOMjAyMjExMDAwOTQ2LjlfQ04xMTUzNDYxNTVBXzIwMjIxMTE1GghtbHo4bzFtaw%3D%3D">发明专利_一种面向视觉特征非连续性干扰的船舶图像航迹提取方法（导师一作，本人二作，专利号：202211000946.9）</a></li>
+					 <li><a href="https://zghh.cinnet.cn/article/doi/10.3969/j.issn.1000-4653.2025.03.005">
 						物联网技术在智能水产养殖系统中的应用，湖南文理学院学报（自然科学学报版）
 					 </a></li>
+					 
+					 
 					 <p class="cmpny1"></p>
 				 </ul>
 			 </div>
